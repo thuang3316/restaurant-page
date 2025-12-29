@@ -6,6 +6,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100vh;
 }
 
 nav {
@@ -13,13 +14,13 @@ nav {
     justify-content: center;
     width: 100vw;
     gap: 40px;
-    padding: 40px;
+    padding: 20px;
     background: linear-gradient(#e66465, #9198e5);
 }
 
 nav button {
     font-family: 'Inter', sans-serif;
-    font-size: 2rem;
+    font-size: 20px;
     font-weight: bold;
     background-color: #f2c1c1;
     color: #3b3b6d;
@@ -32,4 +33,22 @@ nav button:hover {
     transform: scale(1.05);
     cursor: pointer;
     filter: brightness(1.05);
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+}
+
+/* homepage */
+.homePage {
+    display: none;
+    flex-direction: column;
+    align-items: start;
+    width: max(550px, 40%);
+}
+
+.homePage p {
+    font-size: 18px;
+    width: max(550px, 40%);
 }
