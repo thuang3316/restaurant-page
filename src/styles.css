@@ -52,3 +52,37 @@ nav button:hover {
     font-size: 18px;
     width: max(550px, 40%);
 }
+
+/* menu */
+#menu-grid {
+  display: none;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+.menu-card {
+  background: rgba(57, 71, 121, 0.85);
+  border: 1px solid rgba(0, 246, 255, 0.3);
+  padding: 20px;
+  color: #e6e6eb;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.menu-card h3 {
+  color: #faf8fa;
+  margin-bottom: 8px;
+}
+
+.menu-card p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.menu-card span {
+  display: block;
+  margin-top: 10px;
+  color: #00f6ff;
+  font-weight: bold;
+}
