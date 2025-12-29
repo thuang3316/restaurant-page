@@ -42,7 +42,7 @@ nav button:hover {
 
 /* homepage */
 .homePage {
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: start;
     width: max(550px, 40%);
@@ -89,6 +89,7 @@ nav button:hover {
 
 /* about */
 .about {
+    display: none;
     font-size: 20px;
     width: max(550px, 50%);
     border: none;
