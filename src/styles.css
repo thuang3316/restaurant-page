@@ -86,3 +86,15 @@ nav button:hover {
   color: #00f6ff;
   font-weight: bold;
 }
+
+/* about */
+.about {
+    font-size: 20px;
+    width: max(550px, 50%);
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(85, 85, 85);
+    color: white;
+    margin-top: 40px;
+    padding: 20px 60px;
+}
